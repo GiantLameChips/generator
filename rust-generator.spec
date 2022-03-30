@@ -13,6 +13,8 @@ Summary:        Stackfull Generator Library in Rust
 License:        MIT or ASL 2.0
 URL:            https://crates.io/crates/generator
 Source:         %{crates_source}
+# Initial patched metadata
+Patch0:         generator-fix-metadata.diff
 
 ExclusiveArch:  %{rust_arches}
 
